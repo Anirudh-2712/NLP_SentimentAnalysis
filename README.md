@@ -29,8 +29,8 @@ This project is a Python web application built with Streamlit that scrapes live 
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_PROJECT_NAME.git](https://github.com/YOUR_USERNAME/YOUR_PROJECT_NAME.git)
-    cd YOUR_PROJECT_NAME
+    git clone [https://github.com/Anirudh-2712/NLP_SentimentAnalysis.git](https://github.com/Anirudh-2712/NLP_SentimentAnalysis.git)
+    cd NLP_SentimentAnalysis
     ```
 
 2.  **Create a virtual environment:**
