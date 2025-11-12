@@ -1,0 +1,7 @@
+streamlit 
+pandas 
+praw 
+nltk 
+python-dotenv 
+transformers 
+torch
