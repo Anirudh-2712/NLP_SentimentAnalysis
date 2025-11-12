@@ -12,7 +12,6 @@ This project is a Python web application built with Streamlit that scrapes live 
 
 ## 📸 Screenshots
 
-*(Add your screenshots here after you take them)*
 
 <img width="940" height="502" alt="image" src="https://github.com/user-attachments/assets/f45e8f5f-3af5-449b-a887-98cd3d7cf272" />
 <img width="940" height="502" alt="image" src="https://github.com/user-attachments/assets/404530f8-bb34-4bec-a435-1105654afa43" />
