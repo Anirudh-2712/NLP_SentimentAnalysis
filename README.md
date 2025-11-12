@@ -1,2 +1,61 @@
-# NLP_SentimentAnalysis
-A Streamlit app that scrapes Reddit posts and analyzes sentiment. Users can compare two NLP models: VADER (fast, rule-based) and RoBERTa (accurate, context-aware Transformer). The tool highlights the trade-offs between speed and accuracy for analyzing social media.
+# Reddit Sentiment Analyzer (VADER vs. RoBERTa)
+
+This project is a Python web application built with Streamlit that scrapes live data from Reddit and performs sentiment analysis. It allows for a direct comparison between a fast, rule-based model (VADER) and a state-of-the-art transformer model (RoBERTa).
+
+## ✨ Features
+
+* **Reddit Data Scraping:** Fetches post titles from any subreddit using a keyword.
+* **Dual-Model Analysis:** Lets the user choose between two different NLP models:
+    * **VADER:** A fast, lexicon-based model (good for general sentiment).
+    * **Transformer (RoBERTa):** A powerful, context-aware deep learning model (`cardiffnlp/twitter-roberta-base-sentiment-latest`) for high-accuracy analysis.
+* **Interactive UI:** Built with Streamlit for a simple, responsive user interface.
+
+## 📸 Screenshots
+
+*(Add your screenshots here after you take them)*
+
+| Main Interface | VADER Results (Neutral Query) | Transformer Results (Neutral Query) |
+| :---: | :---: | :---: |
+|  |  |  |
+
+| VADER Failure Case | Transformer Success Case |
+| :---: | :---: |
+|  |  |
+
+## 🚀 How to Run
+
+### 1. Prerequisites
+
+* Python 3.8+
+* A Reddit Account (for API credentials)
+* [Optional] A Hugging Face Account (if using the API version)
+
+### 2. Setup & Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/YOUR_PROJECT_NAME.git](https://github.com/YOUR_USERNAME/YOUR_PROJECT_NAME.git)
+    cd YOUR_PROJECT_NAME
+    ```
+
+2.  **Create a virtual environment:**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
+
+3.  **Install the required libraries:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Create your API key file:**
+    * Create a file in the main folder named `.env`
+    * Copy the contents of `.env.example` (see below) into it and add your keys.
+
+### 3. Running the App
+
+Once set up, just run the following command in your terminal:
+
+```bash
+streamlit run app.py
